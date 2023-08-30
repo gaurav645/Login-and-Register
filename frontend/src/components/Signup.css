@@ -1,0 +1,75 @@
+.login-container1 {
+    background-image: url('../images/pic10.jpg'); /* Adjust the path */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #042a52;
+    
+    
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-shadow: #042a52;
+  }
+  
+  .btn-primary {
+    background-color: #042a52;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #042a52;
+  }
+  .abcd {
+    background-color: #042a52;
+    color:white;
+    text-decoration: none;
+    position: relative; /* Add relative positioning for pseudo-element */
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 565px;
+    margin-left: -35px;
+    text-align: left;
+    border-radius: 5px;
+  }
+  
+  .abcd::before {
+    content: ''; /* Add pseudo-element content */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #007bff; /* Fill the pseudo-element with background color */
+    opacity: 0.2; /* Adjust opacity to control the color intensity */
+    z-index: -1; /* Place the pseudo-element behind the text */
+    border-radius:550px;
+  }
+  
+  .abcd:hover {
+    text-decoration: underline;
+  }
+
+  .img-src {
+    margin-top: 15px; /* Adjust the margin as needed */
+    text-align: center;
+  }
+  
+  
